@@ -1,5 +1,5 @@
 var moviesData, allMoviesMap, movieImg, movieName, movieDescription, movieDate, starsRating;
-var apiUrl = 'a295c2fda0d44898d34830970fce7edc';
+var apiUrl = '4db0fcaccb985b5510c5e53f278100bd';
 var imageBasePath = 'https://image.tmdb.org/t/p/w500';
 
 $(document).ready(function () {
