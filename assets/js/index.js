@@ -37,7 +37,7 @@ async function loadMovies(endpoint) {
     var response = await fetch(fullApiUrl);
     if (response.ok && 400 != response.status) {
         var apiData = await response.json();
-        moviesData = apiData.results;
+        moviesData = apiData.results.filter(function (movie) { return movie.poster_path != null; });
         allMoviesMap = new Map(Object.entries(moviesData));
         showMoviesOnScreen();
     }
@@ -48,7 +48,7 @@ async function searchMoviesByKeyword(keyword) {
     var response = await fetch(searchUrl);
     if (response.ok && 400 != response.status) {
         var apiData = await response.json();
-        moviesData = apiData.results;
+        moviesData = apiData.results.filter(function (movie) { return movie.poster_path != null; });
         allMoviesMap = new Map(Object.entries(moviesData));
         showMoviesOnScreen();
     }
