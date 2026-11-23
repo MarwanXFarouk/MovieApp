@@ -2,7 +2,6 @@
 
 A movie browsing app I built with plain HTML, CSS and JavaScript. It pulls live data from the TMDB API: now playing, popular, top rated, trending and upcoming, plus search by title.
 
-![Screenshot](screenshot.png)
 
 ## Live Demo
 
