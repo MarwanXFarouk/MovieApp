@@ -1,27 +1,45 @@
-![MovieApp project preview](https://repository-images.githubusercontent.com/1106733207/b3984303-2aa4-4cdb-9587-23c9801b9597)
+[![MovieApp](docs/thumbnail.png)](https://marwanxfarouk.github.io/MovieApp/)
 
-# Movie App
+# 🎬 MovieApp
 
-A movie browsing app I built with HTML, CSS and JavaScript with jQuery and Bootstrap. It pulls live data from the TMDB API: now playing, popular, top rated, trending and upcoming, plus search by title.
+A movie browsing app built with HTML, CSS, JavaScript, jQuery and Bootstrap, powered by the TMDB API. Browse now-playing, popular, top-rated, trending and upcoming movies, with live search by title.
 
+## Demo
 
-## Live Demo
+[Open the live demo](https://marwanxfarouk.github.io/MovieApp/)
 
-https://marwanxfarouk.github.io/MovieApp/
+![MovieApp home page](docs/screenshot.png)
 
-## Built With
+## What it includes
 
-- HTML5, CSS3, JavaScript (ES6+)
-- jQuery and Bootstrap
-- TMDB API
+- Now playing, popular, top rated, trending and upcoming movie lists from the TMDB API.
+- Live search by movie title.
+- Contact form with client-side validation.
+- Reveal-on-scroll animations and a fully responsive layout.
 
-## What I practiced
+### Stack
 
-- Fetching and rendering API data
-- DOM manipulation without a framework
-- Responsive layout
-- Reveal-on-scroll animations
+HTML5 · CSS3 · JavaScript (ES6+) · jQuery 3.7 · Bootstrap 5 · TMDB API · FontAwesome · Animate.css
 
-## Run Locally
+### Code layout
 
-Clone the repo and open `index.html` in a browser. You need your own free TMDB API key in `assets/js/index.js`.
+- `index.html`: single-page markup (side navigation, movie grid, contact form).
+- `assets/css/`: custom styles and media queries, plus vendored Bootstrap, FontAwesome and Animate.css.
+- `assets/js/`: TMDB fetching, rendering, search and form validation, plus vendored jQuery and Bootstrap.
+- `assets/images/`: logo.
+
+## Run locally
+
+```bash
+git clone https://github.com/MarwanXFarouk/MovieApp.git
+cd MovieApp
+```
+
+Open `index.html` in your browser. The app needs a free TMDB API key in `assets/js/index.js`.
+
+## Notes
+
+- Front-End project; all movie data comes from the TMDB API.
+- This product uses the TMDB API but is not endorsed or certified by TMDB.
+
+Built by [Marwan Farouk](https://github.com/MarwanXFarouk) · [LinkedIn](https://www.linkedin.com/in/marwanfarouk/)
