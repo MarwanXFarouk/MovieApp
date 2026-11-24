@@ -1,6 +1,8 @@
+![MovieApp project preview](https://repository-images.githubusercontent.com/1106733207/b3984303-2aa4-4cdb-9587-23c9801b9597)
+
 # Movie App
 
-A movie browsing app I built with plain HTML, CSS and JavaScript. It pulls live data from the TMDB API: now playing, popular, top rated, trending and upcoming, plus search by title.
+A movie browsing app I built with HTML, CSS and JavaScript with jQuery and Bootstrap. It pulls live data from the TMDB API: now playing, popular, top rated, trending and upcoming, plus search by title.
 
 
 ## Live Demo
